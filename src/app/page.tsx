@@ -33,7 +33,7 @@ export default function Home() {
           <button>Buscar</button>
         </div>
         <div className="image-container">
-          <img src="/trilhas-da-arara/dunas.png" alt="Paisagem do cerrado" />
+          <img src="imagens/dunas.png" alt="Paisagem do cerrado" />
         </div>
       </main>
     </div>
