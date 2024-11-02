@@ -1,4 +1,6 @@
 import Link from "next/link"
+import Image from "next/image"
+import profileImg from "../public/ImgPerf.png"
 
 export default function pages(){
     return( <html>
@@ -18,7 +20,7 @@ export default function pages(){
                 </div>
                 <div className="Perf">
                     <div className="Camp">
-                    <img src="./ImgPerf.png" alt="" />
+                        <Image src={profileImg} alt="imagem perfil"></Image>
                     <h1>Masum Rana</h1>
                     <p>Gothenburg</p> 
                     <p>15th February</p>
@@ -54,9 +56,6 @@ export default function pages(){
                     </div>
                 </div>
             </body>
-            <footer>
-
-            </footer>
            </html>
 
     )
