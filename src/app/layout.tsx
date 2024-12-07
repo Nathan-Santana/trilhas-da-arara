@@ -43,7 +43,7 @@ export default function RootLayout({
               </li>
               <li className="flex items-center gap-2">
                 <Hotel className="w-4 h-4" />
-                <Link href="/" className="hover:text-[#D85E1B]">Hotéis</Link>
+                <Link href="/menuHoteis" className="hover:text-[#D85E1B]">Hotéis</Link>
               </li>
               <li className="flex items-center gap-2">
                 <MapPin className="w-4 h-4" />
@@ -51,7 +51,7 @@ export default function RootLayout({
               </li>
               <li className="flex items-center gap-2">
                 <UtensilsCrossed className="w-4 h-4" />
-                <Link href="/" className="hover:text-[#D85E1B]">Restaurantes</Link>
+                <Link href="/menuRestaurantes" className="hover:text-[#D85E1B]">Restaurantes</Link>
               </li>
               <li className="flex items-center gap-2">
                 <Calendar className="w-4 h-4" />
