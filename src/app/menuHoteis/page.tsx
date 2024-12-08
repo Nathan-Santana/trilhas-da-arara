@@ -16,10 +16,10 @@ export default function MenuHoteisPage() {
   return (
     <div className="container mx-auto px-4 py-8">
       <div className="flex gap-8 mb-16">
-        {/* Sidebar com filtros */}
+        
         <div className="w-64 flex-shrink-0">
           <div className="space-y-6">
-            {/* Disponibilidade */}
+            
             <div className="space-y-4">
               <h3 className="font-medium">Disponibilidade:</h3>
               <div className="space-y-2">
@@ -43,7 +43,7 @@ export default function MenuHoteisPage() {
               </Button>
             </div>
 
-            {/* Tipo de Acomodação */}
+            
             <div className="space-y-4">
               <h3 className="font-medium">Tipo de Acomodação</h3>
               <div className="space-y-2">
@@ -66,7 +66,7 @@ export default function MenuHoteisPage() {
               </div>
             </div>
 
-            {/* Comodidades */}
+            
             <div className="space-y-4">
               <h3 className="font-medium">Comodidades</h3>
               <div className="space-y-2">
@@ -92,7 +92,7 @@ export default function MenuHoteisPage() {
               </Button>
             </div>
 
-            {/* Faixa de Preço */}
+            
             <div className="space-y-4">
               <h3 className="font-medium">Faixa de Preço</h3>
               <div className="space-y-2">
@@ -113,7 +113,7 @@ export default function MenuHoteisPage() {
           </div>
         </div>
 
-        {/* Área principal de resultados */}
+        
         <div className="flex-1">
           <div className="flex justify-between items-center mb-6">
             <h1 className="text-2xl font-medium">Hotéis em Taquaruçu</h1>
@@ -130,7 +130,7 @@ export default function MenuHoteisPage() {
             </Select>
           </div>
 
-          {/* Lista de Hotéis */}
+          
           <div className="space-y-4">
             {Array.from({ length: 5 }).map((_, index) => (
               <Link href={`/hotel/${index + 1}`} key={index}>
@@ -198,7 +198,7 @@ export default function MenuHoteisPage() {
             Ver mais hotéis
           </Button>
 
-          {/* Seção de Ofertas Especiais */}
+          
           <section className="mt-16">
             <h2 className="text-2xl font-medium mb-6">Ofertas Especiais</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -231,7 +231,7 @@ export default function MenuHoteisPage() {
             </div>
           </section>
 
-          {/* Seção de Avaliações Recentes */}
+          
           <section className="mt-16">
             <div className="flex justify-between items-center mb-6">
               <h2 className="text-2xl font-medium">Avaliações Recentes</h2>
@@ -270,7 +270,7 @@ export default function MenuHoteisPage() {
             </div>
           </section>
 
-          {/* Seção de Informações Úteis */}
+          
           <section className="mt-16">
             <h2 className="text-2xl font-medium mb-6">Informações Úteis</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
