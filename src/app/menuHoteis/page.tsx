@@ -136,7 +136,7 @@ export default function MenuHoteisPage() {
               <Link href={`/hotel/${index + 1}`} key={index}>
                 <Card className="flex overflow-hidden hover:shadow-lg transition-shadow">
                   <Image
-                    src="/placeholder.svg?height=200&width=300"
+                    src="/Hotel.jpg"
                     alt="Hotel"
                     width={200}
                     height={150}

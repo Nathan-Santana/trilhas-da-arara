@@ -132,7 +132,7 @@ export default function ResultadosPage() {
               <Link href={`/destino/${index + 1}`} key={index}>
                 <Card className="flex overflow-hidden hover:shadow-lg transition-shadow">
                   <Image
-                    src="/roncadeira.png"
+                    src="/dunas.png"
                     alt="Cachoeira da Roncadeira"
                     width={200}
                     height={150}

@@ -20,7 +20,7 @@ export default function Page() {
       <section className="relative mb-12">
         <div className="absolute inset-0 bg-black opacity-50 rounded-xl"></div>
         <Image
-          src="/placeholder.svg?height=400&width=1200&text=Imagem+de+Destaque+Culinária"
+          src="/Destaque.jpg"
           alt="Destaque Culinário"
           width={1200}
           height={400}
@@ -75,7 +75,7 @@ export default function Page() {
         {Array.from({ length: 6 }).map((_, index) => (
           <Card key={index} className="overflow-hidden hover:shadow-lg transition-shadow">
             <Image
-              src={`/placeholder.svg?height=200&width=400&text=Restaurante+${index + 1}`}
+              src={`/Restaurante.jpg?height=200&width=400&text=Restaurante+${index + 1}`}
               alt={`Restaurante ${index + 1}`}
               width={400}
               height={200}
@@ -117,7 +117,7 @@ export default function Page() {
           {["Peixe na Folha de Bananeira", "Paçoca de Carne Seca", "Galinhada com Pequi", "Arroz com Pequi"].map((dish, index) => (
             <Card key={index} className="overflow-hidden">
               <Image
-                src={`/placeholder.svg?height=150&width=300&text=${dish}`}
+                src={`/Peixe.jpg?height=150&width=300&text=${dish}`}
                 alt={dish}
                 width={300}
                 height={150}
@@ -138,7 +138,7 @@ export default function Page() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <Card className="flex overflow-hidden">
             <Image
-              src="/placeholder.svg?height=300&width=400&text=Tour+Gastronômico"
+              src="/tourGas.jpg"
               alt="Tour Gastronômico"
               width={400}
               height={300}
@@ -152,7 +152,7 @@ export default function Page() {
           </Card>
           <Card className="flex overflow-hidden">
             <Image
-              src="/placeholder.svg?height=300&width=400&text=Aula+de+Culinária"
+              src="/AulaCulinaria.jpg"
               alt="Aula de Culinária"
               width={400}
               height={300}
